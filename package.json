@@ -1,0 +1,11 @@
+{
+  "name": "reserved-username",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:tilecloud/reserved-username.git",
+  "author": "kamataryo <mugil.cephalus+Ciconia.local@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "node index.js"
+  }
+}
