@@ -12,8 +12,9 @@ const main = async () => {
         JSON.parse(x.toString())
       )
     )
-  ].sort()
-  await writeFile('./concat.json', JSON.stringify(names, null, 2))
+  ]
+  names.sort()
+  await writeFile('./dest.json', JSON.stringify(names, null, 2))
 }
 
 main()
